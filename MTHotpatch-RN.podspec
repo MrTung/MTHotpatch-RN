@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.source       = { :git => "https://github.com/MrTung/MTHotpatch-RN", :tag => s.version }
     #s.source_files  = "HotPatch/*"
     s.resources          = "HotPatch/HotPatch.bundle"
-    s.frameworks = 'Foundation', 'UIKit', 'CoreLocation', 'AdSupport'
+    s.frameworks = 'Foundation'
     s.vendored_frameworks = 'HotPatch.framework'
     s.requires_arc = true
 end
