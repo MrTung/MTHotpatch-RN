@@ -1,0 +1,6 @@
+framework module Pods_MTHotPatch_RN {
+  umbrella header "Pods-MTHotPatch-RN-umbrella.h"
+
+  export *
+  module * { export * }
+}

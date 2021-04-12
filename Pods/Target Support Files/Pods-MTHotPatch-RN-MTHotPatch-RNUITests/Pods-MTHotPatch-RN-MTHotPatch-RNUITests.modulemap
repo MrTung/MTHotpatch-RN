@@ -1,0 +1,6 @@
+framework module Pods_MTHotPatch_RN_MTHotPatch_RNUITests {
+  umbrella header "Pods-MTHotPatch-RN-MTHotPatch-RNUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-MTHotPatch-RN/Pods-MTHotPatch-RN-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework

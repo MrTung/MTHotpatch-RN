@@ -16,6 +16,10 @@
 		0132633A2623DB3900908F61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 013263392623DB3900908F61 /* main.m */; };
 		013263442623DB3900908F61 /* MTHotPatch_RNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 013263432623DB3900908F61 /* MTHotPatch_RNTests.m */; };
 		0132634F2623DB3900908F61 /* MTHotPatch_RNUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0132634E2623DB3900908F61 /* MTHotPatch_RNUITests.m */; };
+		013263622623DC0100908F61 /* BundleLoadManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 013263612623DC0100908F61 /* BundleLoadManage.m */; };
+		6173E7F3E2CED31DB4E806F3 /* Pods_MTHotPatch_RN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10482FE91815B86CCA318E4E /* Pods_MTHotPatch_RN.framework */; };
+		C17CDEC7D95F03F18D4DE09C /* Pods_MTHotPatch_RNTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D6D499EE7571088EC11F24 /* Pods_MTHotPatch_RNTests.framework */; };
+		EE05B2D180C22BCC85A23D1D /* Pods_MTHotPatch_RN_MTHotPatch_RNUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57F5F0A1D762F8FE0655F12 /* Pods_MTHotPatch_RN_MTHotPatch_RNUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,17 @@
 		0132634A2623DB3900908F61 /* MTHotPatch-RNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MTHotPatch-RNUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0132634E2623DB3900908F61 /* MTHotPatch_RNUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTHotPatch_RNUITests.m; sourceTree = "<group>"; };
 		013263502623DB3900908F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		013263602623DC0100908F61 /* BundleLoadManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundleLoadManage.h; sourceTree = "<group>"; };
+		013263612623DC0100908F61 /* BundleLoadManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundleLoadManage.m; sourceTree = "<group>"; };
+		10482FE91815B86CCA318E4E /* Pods_MTHotPatch_RN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTHotPatch_RN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		320A14BE3BEED88CCA07719B /* Pods-MTHotPatch-RN-MTHotPatch-RNUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTHotPatch-RN-MTHotPatch-RNUITests.debug.xcconfig"; path = "Target Support Files/Pods-MTHotPatch-RN-MTHotPatch-RNUITests/Pods-MTHotPatch-RN-MTHotPatch-RNUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		35D6D499EE7571088EC11F24 /* Pods_MTHotPatch_RNTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTHotPatch_RNTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40ACC67F0085C3A734D0521C /* Pods-MTHotPatch-RN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTHotPatch-RN.debug.xcconfig"; path = "Target Support Files/Pods-MTHotPatch-RN/Pods-MTHotPatch-RN.debug.xcconfig"; sourceTree = "<group>"; };
+		6800CED1A65B2A168F0502C0 /* Pods-MTHotPatch-RNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTHotPatch-RNTests.debug.xcconfig"; path = "Target Support Files/Pods-MTHotPatch-RNTests/Pods-MTHotPatch-RNTests.debug.xcconfig"; sourceTree = "<group>"; };
+		98F7E9867502ACABA72DF96A /* Pods-MTHotPatch-RN-MTHotPatch-RNUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTHotPatch-RN-MTHotPatch-RNUITests.release.xcconfig"; path = "Target Support Files/Pods-MTHotPatch-RN-MTHotPatch-RNUITests/Pods-MTHotPatch-RN-MTHotPatch-RNUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9E5E7EE92B053330B9059205 /* Pods-MTHotPatch-RNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTHotPatch-RNTests.release.xcconfig"; path = "Target Support Files/Pods-MTHotPatch-RNTests/Pods-MTHotPatch-RNTests.release.xcconfig"; sourceTree = "<group>"; };
+		B57F5F0A1D762F8FE0655F12 /* Pods_MTHotPatch_RN_MTHotPatch_RNUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTHotPatch_RN_MTHotPatch_RNUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E56638B20574F6C3881A787A /* Pods-MTHotPatch-RN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTHotPatch-RN.release.xcconfig"; path = "Target Support Files/Pods-MTHotPatch-RN/Pods-MTHotPatch-RN.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6173E7F3E2CED31DB4E806F3 /* Pods_MTHotPatch_RN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C17CDEC7D95F03F18D4DE09C /* Pods_MTHotPatch_RNTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE05B2D180C22BCC85A23D1D /* Pods_MTHotPatch_RN_MTHotPatch_RNUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +106,8 @@
 				013263422623DB3900908F61 /* MTHotPatch-RNTests */,
 				0132634D2623DB3900908F61 /* MTHotPatch-RNUITests */,
 				013263252623DB3600908F61 /* Products */,
+				E72227CD5902084D64969698 /* Pods */,
+				25D5A1CBA2E9793A3CFACB8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +124,7 @@
 		013263262623DB3600908F61 /* MTHotPatch-RN */ = {
 			isa = PBXGroup;
 			children = (
+				0132635F2623DC0100908F61 /* HotPatch */,
 				013263272623DB3600908F61 /* AppDelegate.h */,
 				013263282623DB3600908F61 /* AppDelegate.m */,
 				0132632A2623DB3600908F61 /* SceneDelegate.h */,
@@ -137,6 +158,39 @@
 			path = "MTHotPatch-RNUITests";
 			sourceTree = "<group>";
 		};
+		0132635F2623DC0100908F61 /* HotPatch */ = {
+			isa = PBXGroup;
+			children = (
+				013263602623DC0100908F61 /* BundleLoadManage.h */,
+				013263612623DC0100908F61 /* BundleLoadManage.m */,
+			);
+			path = HotPatch;
+			sourceTree = "<group>";
+		};
+		25D5A1CBA2E9793A3CFACB8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10482FE91815B86CCA318E4E /* Pods_MTHotPatch_RN.framework */,
+				B57F5F0A1D762F8FE0655F12 /* Pods_MTHotPatch_RN_MTHotPatch_RNUITests.framework */,
+				35D6D499EE7571088EC11F24 /* Pods_MTHotPatch_RNTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E72227CD5902084D64969698 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40ACC67F0085C3A734D0521C /* Pods-MTHotPatch-RN.debug.xcconfig */,
+				E56638B20574F6C3881A787A /* Pods-MTHotPatch-RN.release.xcconfig */,
+				320A14BE3BEED88CCA07719B /* Pods-MTHotPatch-RN-MTHotPatch-RNUITests.debug.xcconfig */,
+				98F7E9867502ACABA72DF96A /* Pods-MTHotPatch-RN-MTHotPatch-RNUITests.release.xcconfig */,
+				6800CED1A65B2A168F0502C0 /* Pods-MTHotPatch-RNTests.debug.xcconfig */,
+				9E5E7EE92B053330B9059205 /* Pods-MTHotPatch-RNTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 013263532623DB3900908F61 /* Build configuration list for PBXNativeTarget "MTHotPatch-RN" */;
 			buildPhases = (
+				A77A43838C51D7461B904908 /* [CP] Check Pods Manifest.lock */,
 				013263202623DB3600908F61 /* Sources */,
 				013263212623DB3600908F61 /* Frameworks */,
 				013263222623DB3600908F61 /* Resources */,
+				8A84C081E01050B9721D4548 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 013263562623DB3900908F61 /* Build configuration list for PBXNativeTarget "MTHotPatch-RNTests" */;
 			buildPhases = (
+				96D7F6A17055F8B8E62758A1 /* [CP] Check Pods Manifest.lock */,
 				0132633B2623DB3900908F61 /* Sources */,
 				0132633C2623DB3900908F61 /* Frameworks */,
 				0132633D2623DB3900908F61 /* Resources */,
@@ -179,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 013263592623DB3900908F61 /* Build configuration list for PBXNativeTarget "MTHotPatch-RNUITests" */;
 			buildPhases = (
+				D652A79DC12F1186D9539CFE /* [CP] Check Pods Manifest.lock */,
 				013263462623DB3900908F61 /* Sources */,
 				013263472623DB3900908F61 /* Frameworks */,
 				013263482623DB3900908F61 /* Resources */,
+				17D150AAD1B2C92D29EA6F07 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,12 +320,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17D150AAD1B2C92D29EA6F07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MTHotPatch-RN-MTHotPatch-RNUITests/Pods-MTHotPatch-RN-MTHotPatch-RNUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MTHotPatch-RN-MTHotPatch-RNUITests/Pods-MTHotPatch-RN-MTHotPatch-RNUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MTHotPatch-RN-MTHotPatch-RNUITests/Pods-MTHotPatch-RN-MTHotPatch-RNUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A84C081E01050B9721D4548 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MTHotPatch-RN/Pods-MTHotPatch-RN-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MTHotPatch-RN/Pods-MTHotPatch-RN-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MTHotPatch-RN/Pods-MTHotPatch-RN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96D7F6A17055F8B8E62758A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MTHotPatch-RNTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A77A43838C51D7461B904908 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MTHotPatch-RN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D652A79DC12F1186D9539CFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MTHotPatch-RN-MTHotPatch-RNUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		013263202623DB3600908F61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0132632F2623DB3600908F61 /* ViewController.m in Sources */,
+				013263622623DC0100908F61 /* BundleLoadManage.m in Sources */,
 				013263292623DB3600908F61 /* AppDelegate.m in Sources */,
 				0132633A2623DB3900908F61 /* main.m in Sources */,
 				0132632C2623DB3600908F61 /* SceneDelegate.m in Sources */,
@@ -438,6 +601,7 @@
 		};
 		013263542623DB3900908F61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40ACC67F0085C3A734D0521C /* Pods-MTHotPatch-RN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +620,7 @@
 		};
 		013263552623DB3900908F61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E56638B20574F6C3881A787A /* Pods-MTHotPatch-RN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,6 +639,7 @@
 		};
 		013263572623DB3900908F61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6800CED1A65B2A168F0502C0 /* Pods-MTHotPatch-RNTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +660,7 @@
 		};
 		013263582623DB3900908F61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E5E7EE92B053330B9059205 /* Pods-MTHotPatch-RNTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +681,7 @@
 		};
 		0132635A2623DB3900908F61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 320A14BE3BEED88CCA07719B /* Pods-MTHotPatch-RN-MTHotPatch-RNUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZA2768Z783;
@@ -532,6 +700,7 @@
 		};
 		0132635B2623DB3900908F61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98F7E9867502ACABA72DF96A /* Pods-MTHotPatch-RN-MTHotPatch-RNUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZA2768Z783;
