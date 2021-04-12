@@ -1,4 +1,4 @@
-:Pod::Spec.new do |s|
+Pod::Spec.new do |s|
     s.name         = "MTHotPatch-RN"
     s.version      = "1.0.0"
     s.ios.deployment_target = '9.0'
