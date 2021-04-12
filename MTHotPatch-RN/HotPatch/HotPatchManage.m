@@ -1,22 +1,22 @@
 //
-//  BundleLoadManage.m
+//  HotPatchManage.m
 //  AwesomeProject
 //
 //  Created by 董徐维 on 2021/1/31.
 //
 
-#import "BundleLoadManage.h"
+#import "HotPatchManage.h"
 #import "SSZipArchive.h"
 #import "AFNetworking.h"
 
-@implementation BundleLoadManage
+@implementation HotPatchManage
 
-+(BundleLoadManage *)defaultManager
++(HotPatchManage *)defaultManager
 {
-  static BundleLoadManage *instance;
+  static HotPatchManage *instance;
   static dispatch_once_t onceToken;
   dispatch_once(&onceToken, ^{
-    instance = [[BundleLoadManage alloc] init];
+    instance = [[HotPatchManage alloc] init];
   });
   return instance;
 }

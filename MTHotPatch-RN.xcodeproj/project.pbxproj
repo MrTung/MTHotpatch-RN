@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,7 +16,7 @@
 		0132633A2623DB3900908F61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 013263392623DB3900908F61 /* main.m */; };
 		013263442623DB3900908F61 /* MTHotPatch_RNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 013263432623DB3900908F61 /* MTHotPatch_RNTests.m */; };
 		0132634F2623DB3900908F61 /* MTHotPatch_RNUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0132634E2623DB3900908F61 /* MTHotPatch_RNUITests.m */; };
-		013263622623DC0100908F61 /* BundleLoadManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 013263612623DC0100908F61 /* BundleLoadManage.m */; };
+		013263622623DC0100908F61 /* HotPatchManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 013263612623DC0100908F61 /* HotPatchManage.m */; };
 		6173E7F3E2CED31DB4E806F3 /* Pods_MTHotPatch_RN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10482FE91815B86CCA318E4E /* Pods_MTHotPatch_RN.framework */; };
 		C17CDEC7D95F03F18D4DE09C /* Pods_MTHotPatch_RNTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D6D499EE7571088EC11F24 /* Pods_MTHotPatch_RNTests.framework */; };
 		EE05B2D180C22BCC85A23D1D /* Pods_MTHotPatch_RN_MTHotPatch_RNUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57F5F0A1D762F8FE0655F12 /* Pods_MTHotPatch_RN_MTHotPatch_RNUITests.framework */; };
@@ -58,8 +58,8 @@
 		0132634A2623DB3900908F61 /* MTHotPatch-RNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MTHotPatch-RNUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0132634E2623DB3900908F61 /* MTHotPatch_RNUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTHotPatch_RNUITests.m; sourceTree = "<group>"; };
 		013263502623DB3900908F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		013263602623DC0100908F61 /* BundleLoadManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundleLoadManage.h; sourceTree = "<group>"; };
-		013263612623DC0100908F61 /* BundleLoadManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundleLoadManage.m; sourceTree = "<group>"; };
+		013263602623DC0100908F61 /* HotPatchManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotPatchManage.h; sourceTree = "<group>"; };
+		013263612623DC0100908F61 /* HotPatchManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotPatchManage.m; sourceTree = "<group>"; };
 		10482FE91815B86CCA318E4E /* Pods_MTHotPatch_RN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTHotPatch_RN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		320A14BE3BEED88CCA07719B /* Pods-MTHotPatch-RN-MTHotPatch-RNUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTHotPatch-RN-MTHotPatch-RNUITests.debug.xcconfig"; path = "Target Support Files/Pods-MTHotPatch-RN-MTHotPatch-RNUITests/Pods-MTHotPatch-RN-MTHotPatch-RNUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		35D6D499EE7571088EC11F24 /* Pods_MTHotPatch_RNTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTHotPatch_RNTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,8 +161,8 @@
 		0132635F2623DC0100908F61 /* HotPatch */ = {
 			isa = PBXGroup;
 			children = (
-				013263602623DC0100908F61 /* BundleLoadManage.h */,
-				013263612623DC0100908F61 /* BundleLoadManage.m */,
+				013263602623DC0100908F61 /* HotPatchManage.h */,
+				013263612623DC0100908F61 /* HotPatchManage.m */,
 			);
 			path = HotPatch;
 			sourceTree = "<group>";
@@ -187,7 +187,6 @@
 				6800CED1A65B2A168F0502C0 /* Pods-MTHotPatch-RNTests.debug.xcconfig */,
 				9E5E7EE92B053330B9059205 /* Pods-MTHotPatch-RNTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -429,7 +428,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0132632F2623DB3600908F61 /* ViewController.m in Sources */,
-				013263622623DC0100908F61 /* BundleLoadManage.m in Sources */,
+				013263622623DC0100908F61 /* HotPatchManage.m in Sources */,
 				013263292623DB3600908F61 /* AppDelegate.m in Sources */,
 				0132633A2623DB3900908F61 /* main.m in Sources */,
 				0132632C2623DB3600908F61 /* SceneDelegate.m in Sources */,
